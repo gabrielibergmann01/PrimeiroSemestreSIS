@@ -20,7 +20,7 @@ public class Uni5Exe08 {
             float num = sc.nextFloat();
             if (num < 0){
 
-                if (menorNeg == 0 || num < menorNeg){
+                if (num < menorNeg){
                     menorNeg = num;
                 }
 
