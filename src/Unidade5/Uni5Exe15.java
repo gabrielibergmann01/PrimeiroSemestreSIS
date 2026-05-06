@@ -2,7 +2,7 @@ package Unidade5;
 
 import java.util.Scanner;
 
-public class Uni05Exe15 {
+public class Uni5Exe15 {
 
     public static void main(String[] args) {
 

@@ -3,7 +3,7 @@ package Unidade5;
 import java.util.Scanner;
 
 //Descreva um algoritmo que leia um número inteiro n e, dados n números reais informe o maior e o menor número.
-public class UniExe07 {
+public class Uni5Exe07 {
 
     public static void main(String[] args) {
         
