@@ -12,8 +12,7 @@ public class Uni5Exe09 {
         int cont = 0;
 
         System.out.println("Quantos alunos quer adicionar:");
-        int alunos = sc.nextInt();
-        sc.nextLine();
+        int alunos =  Integer.parseInt(sc.nextLine());
 
         for (int i = 1; i <= alunos; i++) {
 
@@ -21,11 +20,10 @@ public class Uni5Exe09 {
             String nome = sc.nextLine();
 
             System.out.println("Digite a idade do aluno:");
-            int idade = sc.nextInt();
-            sc.nextLine();
+            int idade = Integer.parseInt(sc.nextLine());
 
             if (idade == 18) {
-                nomes18 = nomes18 + nome + "";
+                nomes18 = nomes18 + nome + "  ";
             }
 
             if (idade > 20) {
