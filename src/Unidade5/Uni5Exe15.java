@@ -11,9 +11,10 @@ public class Uni5Exe15 {
         String nome = "";
         float nota1, nota2, media = 0;
 
-        while (!nome.equals("fim")) {
+        while (!nome.equalsIgnoreCase("fim")) {
             System.out.println("Digite o nome do aluno: ('fim' para sair)");
             nome = sc.nextLine();
+            
             System.out.println("Digite a primeira nota:");
             nota1 = sc.nextFloat();
             sc.nextLine();
