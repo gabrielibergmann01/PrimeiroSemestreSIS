@@ -16,9 +16,12 @@ public class Uni5Exe16 {
         float somaTotal = 0, somaF = 0, mediaTotal = 0, mediaF = 0;
         int contF = 0, contO = 0;
 
-        while (!genero.equals("0")) {
+        while (true) {
             System.out.println("Digite sua altura:");
             altura = sc.nextFloat();
+              if (altura == 0) {
+                break;
+            }
             sc.nextLine();
             System.out.println("Digite seu genero (M/F/O), 0 para parar");
             genero = sc.nextLine().toUpperCase();
