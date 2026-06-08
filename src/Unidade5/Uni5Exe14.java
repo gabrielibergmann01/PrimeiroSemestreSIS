@@ -22,12 +22,12 @@ public class Uni5Exe14 {
             System.out.println("Digite o preco de venda:");
             precoVenda = sc.nextDouble();
 
-            percentualLucro = ((precoCompra - precoVenda)/ precoCompra) * 100;
+            percentualLucro = ((precoVenda - precoCompra)/ precoCompra) * 100;
 
             if (percentualLucro < 10){
                 cont10++;
             }
-            if (percentualLucro <= 20){
+            if (percentualLucro >= 10 && percentualLucro <= 20){
                 cont10a20++;
             }
             if (percentualLucro > 20){
@@ -39,7 +39,7 @@ public class Uni5Exe14 {
 
         }
 
-        lucro = totalC - totalV;
+        lucro = totalV - totalC;
 
         System.out.println("Menor que 10%: "+cont10);
         System.out.println("Entre 10% e 20%: "+cont10a20);
